@@ -6,9 +6,9 @@ main() {
         if (c == '\t')
             printf("\\t");
         if (c == '\b')
-            printf("\0\b");
+            printf("\\b");
         if (c == '\\')
-            putchar ('\\');
+            printf("\\");
         putchar (c);
     }
 }
